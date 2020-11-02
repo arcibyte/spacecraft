@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Spacecraft</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <script type="text/javascript" src = "js/app.js"></script>
-  </head>
-  <body>
-    <div class="container">
-      <canvas id="my_canvas" width="700" height="600"></canvas>
-      <h3 class="barra"></h3>
-      <div>
-        <button class="boton" id="left_btn">Move Left</button>
-        <button class="boton" id="fire_btn">Fire Missile</button>
-        <button class="boton" id="right_btn">Move Right</button>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spacecraft</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script type="text/javascript" src="js/app.js"></script>
+  <script src="js/musicController.js"></script>
+</head>
+<body>
+  <audio id="gameMusic" src="audio/sound.mp3" preload="auto"></audio>
+  <div class="container">
+    <canvas id="my_canvas" width="700" height="600"></canvas>
+    <h3 class="barra"></h3>
+    <div>
+      <button class="boton" id="left_btn">Move Left</button>
+      <button class="boton" id="fire_btn">Fire Missile</button>
+      <button class="boton" id="right_btn">Move Right</button>
+      <button class="boton" id="playMusicBtn">Play Music</button>
+      <button class="boton" id="pauseMusicBtn">Pause Music</button>
     </div>
-  </body>
+  </div>
+</body>
 </html>
